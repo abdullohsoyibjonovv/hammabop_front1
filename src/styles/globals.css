@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+img {
+  width: 100%;
+  position: unset !important;
+  object-fit: cover;
+  height: auto;
+
+}
+
+/* nav */
+
+
+body {
+  background: rgb(18, 18, 18);
+  color: white;
+}
+
+nav {
+  background: black;
+  height: 90px;
+  color: white;
+  padding: 4px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+
+.navbar a {
+  color: #fff;
+  display: flex;
+  padding: 0 20px;
+  font-size: 30px;
+}
+
+
+
+.otaA {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px 100px;
+  gap: 30px;
+
+}
+
+
+
+.cardA {
+  width: 100%;
+  height: 400px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid rgb(9, 255, 0);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid rgb(38, 255, 0);
+
+}
+
+.inbut_btn {
+
+  width: 100px;
+  height: 50px;
+  background-color: rgb(38, 255, 0);
+  font-size: 20px;
+  color: #fff;
+  border: none;
+
+}
+
+.btn_cart {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.btn_cart button {
+  width: 70px;
+  height: 25px;
+  background: rgb(38, 255, 0);
+  border: none;
+  color: black;
+  border-radius: 20px;
+}
+
+
+
+footer {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 35vh;
+}
+
+.first {
+  text-align: center;
+}
+
+.container {
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+
+}
+
+.tak {
+  width: 100%;
+  display: flex;
+
+  width: 100px;
+}
+
+.instagram {
+  width: 100px;
+}
+
+.skrol {
+
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.input_yaratish {
+
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.input_qidiru {
+  border-radius: 10px;
+
+}
+
+.cardA {
+  width: 100%;
+  text-align: center;
+  border: 2px solid rgb(9, 255, 0);
+}
+
+.logo_img {
+  width: 100px;
+  height: 80px;
+}
+
+.input_yaratish {
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.input_yaratish input {
+  width: 200px;
+  height: 50px;
+  border: 2px solid rgb(38, 255, 0);
+}
+.input_sentir{
+  display: flex;
+  justify-content: center;
+}
+
+.sotib_olish{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+ 
+}
+.sotib_btn{
+  background: #44d62c;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  cursor: pointer;
+  font-family: Razer F5 Bold;
+  font-size: 15px;
+  font-weight: 400;
+  height: 25px;
+  transition: .5s ease;
+  width: 100px;
+}
+.pro1 img{
+  width: 400px;
+}
+.pro1{
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.left{
+  font-size: 25px;
+  padding: 40px;
+}
+.left button{
+margin: 20px 0;
+}
+.card_imgaa{
+  width: 100%;
+height: auto;  
+}
+.btn img{
+  height: 240px;
+}
+.cart_imga{
+  height: 200px;
+}
+.btn_id{
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.sotib_olish{
+display: flex;
+justify-content: center;
+}
+.df_qoshish{
+  display: flex;
+}
+.deleteIconDiv{
+  display: flex;
+}
+.df_zakaz{
+  display: flex;
+  padding: 30px;
+}
+.korzinka_img{
+width: 130px;
+height: 130px;
+}
+.twink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 60px;
+}
+
+.twink_1 {
+  font-size: 25px;
+}
+.juu {
+  display: flex;
+  font-size: 20px;
+  padding: 50px 15px;
+  align-items: center;
+}
+.pricecount {
+  font-size: 20px;
+}
+.prices{
+  padding: 10px;
+  width: 100%;
+}
+.prices {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid #b1b1b1; */
+  -webkit-box-shadow: 1px 0px 10px 5px rgba(34, 60, 80, 0.17);
+  -moz-box-shadow: 1px 0px 10px 5px rgba(34, 60, 80, 0.17);
+  box-shadow: 1px 0px 10px 5px rgba(34, 60, 80, 0.17);
+  border-radius: 5px;
+  padding: 10px 10px;
+  justify-content: space-between;
+}
+.countid {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  button {
+    width: 20px;
+    height: 20px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.twink_btn {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #093;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.cancelBtn{
+  width: 80px;
+  height: 30px;
+  background: #24ab0f;
+  border: none;
+  border-radius: 5px;
+}
+.btn_p{
+  font-size: 20px;
+  font-weight: 600;
+}
+.search__input {
+  border: 1px solid #6e6e6e;
+  border-radius: 5px;
+  width: 399px;
+  height: 45px;
+  padding: 0 18px;
+}
+.nav__search {
+  position: relative;
+  max-width: 400px;
+  width: 100%;
+
+  background-color: #fff;
+
+  .ooo {
+    top: 10px;
+    right: 10px;
+    left: auto;
+    position: absolute;
+  }
+}
+
+.search_card {
+  background-color: #fff;
+  position: absolute;
+
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  top: 60px;
+  left: 0;
+  padding: 15px;
+
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .tovars {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+
+    cursor: pointer;
+
+    b {
+      margin-left: auto;
+      text-align: right;
+    }
+
+    img {
+      max-width: 70px;
+    }
+  }
+}
+.minus_pilus{
+  width: 100px;
+  height: 30px;
+}
+.admin_pas{
+  display: flex;
+  justify-content: center;
+text-align: center;
+background: #000;
+width: 400px;
+height: 300px;
+border: 2px solid #093;
+border-radius: 20px;
+padding: 20px;
+}
+.admin_pas input{
+  width: 200px;
+  height: 30px;
+  border-radius: 9px;
+}
+.admin_pas button{
+   width: 100px;
+   height: 30px;
+  background: rgb(3, 190, 65);
+  border: none;
+  border-radius: 5px;
+
+}
+.admin_pas h3{
+  padding: 10px 0;
+}
+.admin_pasa{
+ display: flex;
+ justify-content: center;
+ padding: 20px;
+}
+@media all and (max-width: 1216px) {
+  .otaA { 
+    padding: 15px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+
+@media all and (max-width: 916px) {
+  .otaA {
+    padding: 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+@media all and (max-width: 570px) {
+  .otaA {
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+@media all and (max-width: 1144px) {
+  .input_yaratish {
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+  }
+}
+@media all and (max-width: 1075px) {
+  .input_yaratish {
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+  }
+}
+@media all and (max-width: 864px) {
+  .input_yaratish {
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+@media all and (max-width: 663px) {
+  .input_yaratish {
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+@media all and (max-width: 464px) {
+  .input_yaratish {
+    padding: 5px 40px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+@media all and (max-width: 464px) {
+  .navbar a{
+font-size: 20px;
+
+  }
+}
+

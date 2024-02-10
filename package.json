@@ -1,0 +1,25 @@
+{
+  "name": "hammabop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "@uidotdev/usehooks": "^2.4.1",
+    "axios": "^1.6.2",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.0",
+    "react-use-cart": "^1.13.0",
+    "swr": "^2.2.4",
+    "use-router": "^0.4.2",
+    "usehooks-ts": "^2.13.0"
+  }
+}
